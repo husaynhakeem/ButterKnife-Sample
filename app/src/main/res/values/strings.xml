@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ButterKnife 101</string>
+    <string name="dummy_text">Lorem ipsum</string>
 </resources>

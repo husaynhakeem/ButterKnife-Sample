@@ -6,4 +6,41 @@
     android:layout_height="match_parent"
     tools:context="husaynhakeem.io.butterknife_101.topics.ResourcesBinding">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="TextView"
+        android:layout_marginStart="16dp" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="368dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintLeft_toLeftOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:layout_marginStart="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:contentDescription="image view"
+        app:layout_constraintLeft_toLeftOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/view" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintLeft_toLeftOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 </android.support.constraint.ConstraintLayout>
