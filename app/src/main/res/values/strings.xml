@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">ButterKnife 101</string>
     <string name="dummy_text">Lorem ipsum</string>
+    <string name="text_non_activity_binding">Non activity binding</string>
 </resources>

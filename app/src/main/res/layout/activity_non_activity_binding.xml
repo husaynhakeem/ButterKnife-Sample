@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="husaynhakeem.io.butterknife_101.topics.NonActivityBinding">
+
+    <fragment
+        class="husaynhakeem.io.butterknife_101.topics.NonActivityBinding$NonActivityBindingFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:tag="non_activity_binding_fragment" />
 
 </android.support.constraint.ConstraintLayout>
