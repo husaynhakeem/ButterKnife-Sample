@@ -6,4 +6,53 @@
     android:layout_height="match_parent"
     tools:context="husaynhakeem.io.butterknife_101.topics.NormalViewsBinding">
 
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Radio Button" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintLeft_toLeftOf="@+id/radioButton"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton"
+        tools:text="ToggleButton" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintLeft_toLeftOf="@+id/radioButton"
+        app:layout_constraintTop_toBottomOf="@+id/toggleButton" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="time"
+        app:layout_constraintLeft_toLeftOf="@+id/radioButton"
+        app:layout_constraintTop_toBottomOf="@+id/seekBar"
+        tools:hint="Edit text" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintLeft_toLeftOf="@+id/radioButton"
+        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:srcCompat="@drawable/common_google_signin_btn_icon_light_normal" />
+
+
 </android.support.constraint.ConstraintLayout>

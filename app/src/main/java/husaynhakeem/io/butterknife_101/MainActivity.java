@@ -23,7 +23,8 @@ import husaynhakeem.io.butterknife_101.topics.listenerBinding;
 public class MainActivity extends AppCompatActivity {
 
 
-    @BindView(R.id.lv_topics) ListView topicsListView;
+    @BindView(R.id.lv_topics)
+    ListView topicsListView;
 
 
     @Override
