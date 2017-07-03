@@ -6,4 +6,23 @@
     android:layout_height="match_parent"
     tools:context="husaynhakeem.io.butterknife_101.topics.OptionalBinding">
 
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Existant checkbox"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Inexistant checkbox"
+        app:layout_constraintLeft_toRightOf="@+id/checkBox1"
+        app:layout_constraintRight_toLeftOf="@+id/checkBox1"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox1" />
 </android.support.constraint.ConstraintLayout>
