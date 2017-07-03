@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="topic_names">
+        <item>Normal views binding</item>
+        <item>Resources binding</item>
+        <item>Non activity binding</item>
+        <item>View holder binding</item>
+        <item>View lists binding</item>
+        <item>Listener binding</item>
+        <item>binding reset</item>
+        <item>optional binding</item>
+        <item>ButterKnife.findById()</item>
+    </string-array>
+
+</resources>

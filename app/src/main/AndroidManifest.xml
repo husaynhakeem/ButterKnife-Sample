@@ -16,6 +16,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".topics.NormalViewsBinding" />
+        <activity android:name=".topics.ResourcesBinding" />
+        <activity android:name=".topics.NonActivityBinding" />
+        <activity android:name=".topics.ViewHolderBinding" />
+        <activity android:name=".topics.ViewListsBinding" />
+        <activity android:name=".topics.listenerBinding" />
+        <activity android:name=".topics.ResetBinding" />
+        <activity android:name=".topics.OptionalBinding" />
+        <activity android:name=".topics.FindbyId"></activity>
     </application>
 
 </manifest>
