@@ -6,4 +6,53 @@
     android:layout_height="match_parent"
     tools:context="husaynhakeem.io.butterknife_101.topics.ViewListsBinding">
 
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="CheckBox"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="CheckBox"
+        app:layout_constraintLeft_toLeftOf="@+id/checkBox"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="CheckBox"
+        app:layout_constraintLeft_toLeftOf="@+id/checkBox"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox2" />
+
+    <Button
+        android:id="@+id/btn_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Check all"
+        app:layout_constraintLeft_toLeftOf="@+id/checkBox"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox3"
+        android:onClick="checkAll"/>
+
+    <Button
+        android:id="@+id/btn_uncheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:text="Uncheck all"
+        app:layout_constraintLeft_toRightOf="@+id/btn_check"
+        app:layout_constraintTop_toTopOf="@+id/btn_check"
+        android:onClick="uncheckAll"/>
+
+
 </android.support.constraint.ConstraintLayout>
