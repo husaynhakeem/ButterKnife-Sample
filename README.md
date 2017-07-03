@@ -1,4 +1,4 @@
-# ButterKnife 101
+# ButterKnife Sample
 Sample Android app developed to practice [ButterKnife](https://github.com/JakeWharton/butterknife), a library that binds views and callbacks to fields and methods.
 
 # Things used in this project
